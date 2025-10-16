@@ -7,13 +7,16 @@
 
     \vspace{2pt}
     % Utilisation de macro de tcolorbox definie dans le fichier lin/macro.txt
-    Utilisation du box image (\ref{fig:test_box_image}) : \boxIMAGE{\textwidth}{0.98\textwidth}{assets/UTC.eps}{Logo UTC}{fig:test_box_image}
+    Utilisation du box image : 
     
-    \vspace{2pt}
-    Utilisation macro boxTexte  \boxTEXTE{My title}{\lipsum[1-2]}
-
-
-    \vspace{2pt}
+    \boxIMAGE{\textwidth}{0.98\textwidth}{assets/UTC.eps}{Logo UTC}{fig:test_box_image}
+    
+    Comme on peut le voir dans la figure \ref{fig:test_box_image}.
+    
+    Utilisation macro boxTexte :
+    
+    \boxTEXTE{Mon titre}{\lipsum[1-2]}
+    
     % Utilisation de la bibliographie, definie dans le fichier refences.bib
     Utilisation bibliographie : ...\cite{musicclassification:book}
 

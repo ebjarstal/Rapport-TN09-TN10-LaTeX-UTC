@@ -1,0 +1,77 @@
+# LaTeX Build Artifacts
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Bibliography
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
+*.sls
+*.alg
+*.ist
+
+# Build tools
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Conversion files
+*-eps-converted-to.pdf
+
+# Indexes
+*.idx
+*.ilg
+*.ind
+
+# Hyperref
+*.xdv
+
+# Temporary files
+*~
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PDF output (décommente si tu ne veux pas inclure le PDF)
+# doc.pdf
+
+# Auto-converted EPS files
+*-eps-converted-to.pdf
+
+# Editor/IDE specific
+.idea/
+*.code-workspace
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
